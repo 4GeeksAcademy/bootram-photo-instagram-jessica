@@ -17,7 +17,28 @@
                 <a class="navbar-brand" href="#">Instagram</a>
             </div>
                 <div class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Create a new post</button>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Create a new post
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+
                     <div class="dropdown mx-3">
                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -27,13 +48,13 @@
                         <li><a class="dropdown-item" href="#">profile</a></li>
                         <li><a class="dropdown-item" href="#">Accesibility</a></li>
                         <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
                     </ul>
                 </div>
                     </div>
         </div>
     </nav>
-
-
 
     <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
@@ -51,60 +72,98 @@
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
             tabindex="0">principal</div>
-        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <div class="tab-pane fade d-flex justify-content-center flex-column align-items-center" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+           
+            <br>
+           
             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">Que lindo mi perro Diego</p>
                 <img src="perro.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">holaaaaaaaaaaaa como estas  example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">204 likes</h5>
+                    
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+
+            <br>
+
+            <div class="card" style="width: 18rem;"> 
+                <hr class="dropdown-divider"><p class="card-text">El insecto mas lindo</p> 
                 <img src="mariposa.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">302 likes</h5>
                 </div>
             </div>
 
+            <br>
+
             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">Turpial de colores</p>
                 <img src="turpial.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">211 likes</h5>
                 </div>
             </div>
 
+            <br>
+
             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">La Ardilla Teodoro</p>
                 <img src="ardilla.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">125 likes</h5>
                 </div>
             </div>
+
+            <br>            
 
             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">EL Oso panda</p>
                 <img src="Oso panda.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h5 class="card-title">258 likes</h5>
                 </div>
             </div>
 
+            <br>
 
+            <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">Mi gato Michi</p>
+                <img src="gato.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title"> 135 likes</h5>
+             </div>
+            </div>
 
+            <br>
 
+             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">El trigre mas amargado</p>
+                <img src="tigre.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">256 likes</h5>
+             </div>
+            </div>
 
+            <br>
+
+             <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">Tortuga del Mar.</p>
+                <img src="tortuga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">187 likes</h5>
+             </div>
+            </div>
+
+            <br>
+
+                <div class="card" style="width: 18rem;">
+                <hr class="dropdown-divider"><p class="card-text">Alejandro el timido</p>
+                <img src="perrito.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">357 likes</h5>
+             </div>
+            </div>
 
 
         </div>
